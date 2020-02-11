@@ -1,17 +1,11 @@
 import 'package:flutter/material.dart';
 
-main() {
-  runApp(MyApp());
+void main() {
+
 }
 
 class MyApp extends StatelessWidget {
-  build(context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('EasyList'),
-        ),
-      ),
-    );
+  Widget build(BuildContext context) {
+    return MaterialApp(home: ̥Text('HEllo'),);
   }
 }
